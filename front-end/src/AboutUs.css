@@ -1,5 +1,21 @@
+.aboutus {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .aboutus > p {
   padding: 1em;
   text-align: left;
   color: #505050;
+  max-width: 60%;
+}
+
+.aboutus > img {
+  width: 300px;
+}
+
+.aboutUs-error {
+  color: red;
 }
